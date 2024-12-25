@@ -1,0 +1,70 @@
+primary_name: "Tian Zhu"
+secondary_name: ""
+navbar_name: "Tian Zhu"
+
+positions:
+- logo: /assets/images/badges/UCAS_logo.png  # Logo is optional
+  name: Master Candidate
+# - name: Position 2 without logo
+
+
+email: "zhutian22s@ict.ac.cn"
+# cv_link: link-to-your-cv-file
+gscholar: rLxdI10AAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: EureKaZhu
+twitter: TianZhuAI4S  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+linkedin: tian-zhu-9ba31a264
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am Tian Zhu (朱天 in Chinese), a master candidate at AI for Science (AI4S) group, <a href="http://www.ict.cas.cn" target="_blank">Institute of Computing Technology, Chinese Academy of Sciences</a> (ICT, CAS) under the supervision of Professor <a href="http://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/200909/t20090917_2496584.html" target="_blank">Dongbo Bu</a> and Associate Professor <a href="http://www.ict.cas.cn/sourcedb_2018_ict_cas/cn/jssrck/202111/t20211108_6246579.html" target="_blank">Haicang Zhang</a>. I received my bachelor of information & computing science (a.k.a. Computational Mathematics) degree from <a href="https://math.bit.edu.cn" target="_blank">Department of Mathematics and Statistics, Beijing Institute of Technology</a> (BIT). 
+    
+  </p>
+  <p>
+    My research focuses on the development and application of advanced deep learning techniques, including probabilistic generative models, geometric deep learning methods and reinforcement learning. I am particularly passionate about leveraging AI for drug discovery and design, with an emphasis on small molecules and proteins. My goal is to create innovative deep-learning methods to address complex scientific challenges in biology and chemistry.
+  </p>
+
+portrait_url: /assets/images/photos/TianZhu.png
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+- name: Chinese Academy of Sciences
+  logo: /assets/images/badges/UCAS_logo.png
+  position: >- 
+    Institute of Computing Technology <br>
+    Master Student
+  date: Sep. 2022 - present
+- name: Beijing Institute of Technology
+  logo: /assets/images/badges/BIT_logo.png
+  position: >- 
+    Department of Mathematics and Statistics
+    Bachelor of Science
+  date: Sep. 2018 - Jul. 2022
+
+experience:
+- name: Institute of Computing Technology
+  logo: /assets/images/badges/UCAS_logo.png
+  position: Research Intern
+  date: Sep. 2021 - Jul. 2022
+
+awards:
+- name: Director's Outstanding Scholarship, ICT
+  date: 2023
+- name: E Fund Financial Technology Freshman Award, ICT
+  date: 2023
+- name: Outstanding Graduating Student, BIT
+  date: 2022
+- name: Undergraduate Scholarship, UCAS
+  date: 2021
+- name: National Scholarship, BIT
+  date: 2021
+
+
+
+
