@@ -18,7 +18,7 @@ authors:
   - Bo Duan
   - Chunming Zhang
   - Dongbo Bu
-  - Shiwei Zhang
+  - Shiwei Sun
 links:
   paper: https://openreview.net/pdf?id=FSxTEvuFa7
   Code: https://github.com/CarbonMatrixLab/carbonnovo
