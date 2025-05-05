@@ -26,7 +26,7 @@ short_bio: >-
     I am Tian Zhu (朱天 in Chinese), an incoming PhD candidate at <a href="https://www.epfl.ch/labs/lpdi" target="_blank">LPDI group, École Polytechnique Fédérale de Lausanne</a> under the co-supervision of Professor <a href="https://scholar.google.ch/citations?user=Va246xYAAAAJ&hl=en" target="_blank">Bruno Correia</a> and <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank">Michael Bronstein</a>. I received my master's degree from <a href="http://www.ict.cas.cn" target="_blank">Institute of Computing Technology, Chinese Academy of Sciences</a> (ICT, CAS) and bachelor's degree from <a href="https://english.bit.edu.cn" target="_blank">Beijing Institute of Technology</a> (BIT). 
   </p>
   <p>
-    My research focuses on the development and application of advanced deep learning techniques. I am particularly passionate about leveraging AI for drug discovery and design, with an emphasis on proteins and small molecules. My goal is to develop effective AI methods to accelerate actual drug development.
+    My research focuses on the computational protein design and geometric deep learning for scientific discovery. I am particularly passionate about leveraging AI for drug discovery and design, with an emphasis on proteins and small molecules. My goal is to develop effective AI methods to accelerate actual drug development.
   </p>
   <p>
     <strong>Alone we can do so little; together we can do so much.</strong> I am always open to collaborations and discussions. Please feel free to reach out to me if you are interested in my research or have any questions.
@@ -66,17 +66,17 @@ experience:
   position: Research Intern
   date: Sep. 2021 - Jul. 2022
 
-# awards:
-# - name: Director's Outstanding Scholarship, ICT
-#   date: 2023
+awards:
+- name: Director's Outstanding Scholarship, ICT
+  date: 2023
 # - name: E Fund Financial Technology Freshman Award, ICT
 #   date: 2023
-# - name: Outstanding Graduating Student, BIT
-#   date: 2022
+- name: Outstanding Graduating Student, BIT
+  date: 2022
 # - name: Undergraduate Scholarship, UCAS
 #   date: 2021
-# - name: National Scholarship, BIT
-#   date: 2021
+- name: National Scholarship, BIT
+  date: 2021
 
 
 
