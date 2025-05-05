@@ -3,12 +3,13 @@ secondary_name: ""
 navbar_name: "Tian Zhu"
 
 positions:
-- logo: /assets/images/badges/UCAS_logo.png  # Logo is optional
-  name: Master Candidate
+- logo: /assets/images/badges/EPFL_logo.png  # Logo is optional
+  name: PhD Candidate
 # - name: Position 2 without logo
 
 
-email: "zhutian22s@ict.ac.cn"
+# email: "zhutian22s@ict.ac.cn"
+email: "tian.zhu@epfl.ch"
 # cv_link: link-to-your-cv-file
 gscholar: rLxdI10AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: EureKaZhu
@@ -22,8 +23,7 @@ linkedin: tian-zhu-9ba31a264
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Tian Zhu (朱天 in Chinese), a master candidate at AI for Science (AI4S) group, <a href="http://www.ict.cas.cn" target="_blank">Institute of Computing Technology, Chinese Academy of Sciences</a> (ICT, CAS) under the supervision of Professor <a href="https://people.ucas.ac.cn/~dbu" target="_blank">Dongbo Bu</a>. I received my bachelor of Computational Mathematics degree from <a href="https://english.bit.edu.cn" target="_blank">Beijing Institute of Technology</a> (BIT). 
-    
+    I am Tian Zhu (朱天 in Chinese), a incoming PhD candidate at <a href="https://www.epfl.ch/labs/lpdi" target="_blank">LPDI group, École Polytechnique Fédérale de Lausanne</a> under the co-supervision of Professor <a href="https://scholar.google.ch/citations?user=Va246xYAAAAJ&hl=en" target="_blank">Bruno Correia</a> and <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank">Michael Bronstein</a>. I received my master's degree from <a href="http://www.ict.cas.cn" target="_blank">Institute of Computing Technology, Chinese Academy of Sciences</a> (ICT, CAS) and bachelor's degree from <a href="https://english.bit.edu.cn" target="_blank">Beijing Institute of Technology</a> (BIT). 
   </p>
   <p>
     My research focuses on the development and application of advanced deep learning techniques. I am particularly passionate about leveraging AI for drug discovery and design, with an emphasis on proteins and small molecules. My goal is to develop effective AI methods to accelerate actual drug development.
@@ -37,12 +37,18 @@ portrait_url: /assets/images/photos/TianZhu.png
 #   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
+- name: École Polytechnique Fédérale de Lausanne
+  logo: /assets/images/badges/EPFL_logo.png
+  position: >- 
+    Laboratory of Protein Design and Immunoengineering (LPDI) <br>
+    PhD Candidate
+  date: Sep. 2025 - present
 - name: Chinese Academy of Sciences
   logo: /assets/images/badges/UCAS_logo.png
   position: >- 
     Institute of Computing Technology <br>
-    Master Student
-  date: Sep. 2022 - present
+    Master of Engineering
+  date: Sep. 2022 - Jul. 2025
 - name: Beijing Institute of Technology
   logo: /assets/images/badges/BIT_logo.png
   position: >- 
@@ -51,6 +57,10 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
+- name: Ecole Polytechnique Fédérale de Lausanne
+  logo: /assets/images/badges/EPFL_logo.png
+  position: Research Intern
+  date: Feb. 2024 - Aug. 2024
 - name: Institute of Computing Technology
   logo: /assets/images/badges/UCAS_logo.png
   position: Research Intern
