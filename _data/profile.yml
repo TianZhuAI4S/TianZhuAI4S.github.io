@@ -57,14 +57,18 @@ education:
   date: Sep. 2018 - Jul. 2022
 
 experience:
-- name: Ecole Polytechnique Fédérale de Lausanne
-  logo: /assets/images/badges/EPFL_logo.png
+- name: ByteDance
+  logo: /assets/images/badges/ByteDance_logo_English.svg
   position: Research Intern
-  date: Feb. 2025 - Aug. 2025
-- name: Institute of Computing Technology
-  logo: /assets/images/badges/UCAS_logo.png
-  position: Research Intern
-  date: Sep. 2021 - Jul. 2022
+  date: May. 2025 - Now
+# - name: Ecole Polytechnique Fédérale de Lausanne
+#   logo: /assets/images/badges/EPFL_logo.png
+#   position: Research Intern
+#   date: Feb. 2025 - Aug. 2025
+# - name: Institute of Computing Technology
+#   logo: /assets/images/badges/UCAS_logo.png
+#   position: Research Intern
+#   date: Sep. 2021 - Jul. 2022
 
 awards:
 - name: Director's Outstanding Scholarship, ICT
