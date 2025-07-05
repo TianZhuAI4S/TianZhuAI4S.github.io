@@ -59,7 +59,9 @@ education:
 experience:
 - name: ByteDance
   logo: /assets/images/badges/bytedance.png
-  position: Research Intern
+  position: >- 
+    AI for Drug Design Team <br>
+    Research Intern
   date: May. 2025 - present
 # - name: Ecole Polytechnique Fédérale de Lausanne
 #   logo: /assets/images/badges/EPFL_logo.png
