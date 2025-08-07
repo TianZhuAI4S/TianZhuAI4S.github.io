@@ -2,7 +2,7 @@
 title:          "GGFlow: A Graph Flow Matching Method with Efficient Optimal Transport"
 date:           2025-08-07 00:01:00 +0800
 selected:       true
-pub:            "Transactions on Machine Learning Research (TMLR) <br>AIDrugX Workshop (2024), Neural Information Processing Systems (NeurIPS)"
+pub:            "AIDrugX Workshop (2024), Neural Information Processing Systems (NeurIPS) 2024 <br>Transactions on Machine Learning Research (TMLR) "
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
