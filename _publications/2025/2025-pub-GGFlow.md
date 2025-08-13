@@ -20,5 +20,6 @@ authors:
   - Chunming Zhang
   - Shiwei Sun
 links:
-  paper: https://openreview.net/forum?id=W94LmKVt2c&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FWorkshop%2FAIDrugX%2FAuthors%23your-submissions)
+  paper: https://openreview.net/forum?id=K8RlXtMgzo
+  code: https://github.com/Xiaoyang878/GGFlow
 ---

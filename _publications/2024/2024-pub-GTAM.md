@@ -21,5 +21,5 @@ authors:
   - Shiwei Sun
 links:
   paper: https://openreview.net/pdf?id=FSxTEvuFa7
-  Code: https://github.com/CarbonMatrixLab/carbonnovo
+  Code: https://github.com/Xiaoyang878/GTAM
 ---
