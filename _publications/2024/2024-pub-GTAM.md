@@ -20,6 +20,6 @@ authors:
   - Dongbo Bu
   - Shiwei Sun
 links:
-  paper: https://openreview.net/pdf?id=FSxTEvuFa7
+  paper: https://academic.oup.com/bioinformatics/article/40/9/btae524/7739699
   Code: https://github.com/Xiaoyang878/GTAM
 ---
