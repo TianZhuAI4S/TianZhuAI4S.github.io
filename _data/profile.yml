@@ -23,7 +23,7 @@ linkedin: tian-zhu-9ba31a264
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Tian Zhu (朱天 in Chinese), an PhD candidate at <a href="https://www.epfl.ch/labs/lpdi" target="_blank">LPDI group, École Polytechnique Fédérale de Lausanne (EPFL)</a> under the co-supervision of Professor <a href="https://scholar.google.ch/citations?user=Va246xYAAAAJ&hl=en" target="_blank">Bruno Correia</a> and <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank">Michael Bronstein</a>. 
+    I am Tian Zhu (朱天 in Chinese), a PhD candidate at <a href="https://www.epfl.ch/labs/lpdi" target="_blank">LPDI group, École Polytechnique Fédérale de Lausanne (EPFL)</a> under the co-supervision of Professor <a href="https://scholar.google.ch/citations?user=Va246xYAAAAJ&hl=en" target="_blank">Bruno Correia</a> and <a href="https://www.cs.ox.ac.uk/people/michael.bronstein/" target="_blank">Michael Bronstein</a>. 
     
   </p>
   <p>
@@ -41,7 +41,7 @@ education:
 - name: École Polytechnique Fédérale de Lausanne
   logo: /assets/images/badges/EPFL_logo.png
   position: >- 
-    Laboratory of Protein Design and Immunoengineering (LPDI) <br>
+    Laboratory of Protein Design and Immunoengineering <br>
     PhD Candidate
   date: Sep. 2025 - present
 - name: Chinese Academy of Sciences
