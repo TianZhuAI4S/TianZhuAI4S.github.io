@@ -85,6 +85,12 @@ awards:
 - name: National Scholarship, BIT
   date: 2021
 
+service:
+- name: Conferences Reviewer
+  date: NeurIPS, ICLR
+# - name: XXX Conference Area Chair
+#   date: 2024
+
 
 
 
