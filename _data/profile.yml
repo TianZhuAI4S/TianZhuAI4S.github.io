@@ -86,8 +86,8 @@ awards:
   date: 2021
 
 service:
-- name: Conferences Reviewer
-  date: NeurIPS, ICLR
+- name: "<strong>Conference Reviewer</strong>: NeurIPS, ICLR"
+  date: 2025
 # - name: XXX Conference Area Chair
 #   date: 2024
 
