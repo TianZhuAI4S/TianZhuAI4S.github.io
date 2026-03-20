@@ -71,3 +71,8 @@ div.lazy {
     font-weight: 600;
 }
 
+.author-highlight-color {
+    font-weight: 600 !important;
+    color: var(--author-color) !important;
+}
+
