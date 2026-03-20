@@ -67,3 +67,7 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.author-highlight {
+    font-weight: 600;
+}
+
