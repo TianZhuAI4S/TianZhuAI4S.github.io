@@ -32,19 +32,21 @@
     {%- endif -%}
 
     {%- if info['color'] -%}
-        {%- assign color_class = " author-highlight" -%}
-        {%- assign style_attr = " style=\"color: " | append: info['color'] | append: ";\"" -%}
+        {%- if info['url'] -%}
+            <a class="text-body author-highlight" target="_blank" href="{{ info['url'] }}" style="color: {{ info['color'] }};">{{ display_name }}</a>{%- if forloop.index < authors.size -%}, {% endif -%}
+        {%- else -%}
+            <span class="text-body author-highlight" style="color: {{ info['color'] }};">
+                {{ display_name }}{%- if forloop.index < authors.size -%}, {% endif -%}
+            </span>
+        {%- endif -%}
     {%- else -%}
-        {%- assign color_class = "" -%}
-        {%- assign style_attr = "" -%}
-    {%- endif -%}
-    
-    {%- if info['url'] -%}
-        <a class="text-body{{ color_class }}" target="_blank" href="{{ info['url'] }}"{{ style_attr }}>{{ display_name }}</a>{%- if forloop.index < authors.size -%}, {% endif -%}
-    {%- else -%}
-        <span class="text-body{{ color_class }}"{{ style_attr }}>
-            {{ display_name }}{%- if forloop.index < authors.size -%}, {% endif -%}
-        </span>
+        {%- if info['url'] -%}
+            <a class="text-body" target="_blank" href="{{ info['url'] }}">{{ display_name }}</a>{%- if forloop.index < authors.size -%}, {% endif -%}
+        {%- else -%}
+            <span class="text-body">
+                {{ display_name }}{%- if forloop.index < authors.size -%}, {% endif -%}
+            </span>
+        {%- endif -%}
     {%- endif -%}
 
 {%- endfor -%}
