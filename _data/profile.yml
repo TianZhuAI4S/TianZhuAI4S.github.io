@@ -63,7 +63,7 @@ experience:
   position: >- 
     Project Voyager Team <br>
     Research Intern
-  date: May. 2025 - present
+  date: May. 2025 - Nov. 2025
 # - name: Ecole Polytechnique Fédérale de Lausanne
 #   logo: /assets/images/badges/EPFL_logo.png
 #   position: Research Intern
@@ -86,8 +86,10 @@ awards:
   date: 2021
 
 service:
-- name: "<strong>Conference Reviewer</strong>: NeurIPS, ICLR"
+- name: "<strong>Conference Reviewer</strong>: NeurIPS, ICLR, ICML"
   date: 2025, 2026
+- name: "<strong>Organizer</strong>: AMLD 2026"
+  date: 
 # - name: XXX Conference Area Chair
 #   date: 2024
 
