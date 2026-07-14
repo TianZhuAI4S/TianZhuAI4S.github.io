@@ -78,7 +78,7 @@ experience:
 #   date: Sep. 2021 - Jul. 2022
 
 awards:
-- name: Boehringer Ingelheim Fonds (BIF) PhD Fellowships, "<em>(Highly Competitive, <10% Acceptance Rate)</em>"
+- name: Boehringer Ingelheim Fonds (BIF) PhD Fellowships 
   date: 2026
 - name: Director's Outstanding Scholarship, ICT
   date: 2023
@@ -88,14 +88,14 @@ awards:
   date: 2022
 # - name: Undergraduate Scholarship, UCAS
 #   date: 2021
-- name: National Scholarship, China "<em>(Highest Honor for Chinese Undergraduate Students)</em>"
+- name: National Scholarship, China "<em>(Highest Honor for Chinese Undergraduates)</em>"
   date: 2021
 
 service:
 - name: "<strong>Conference Reviewer</strong>: NeurIPS, ICLR, ICML"
   date: 2025, 2026
 - name: "<strong>Organizer</strong>: AMLD 2026"
-  date: 
+  date: 2026
 # - name: XXX Conference Area Chair
 #   date: 2024
 
