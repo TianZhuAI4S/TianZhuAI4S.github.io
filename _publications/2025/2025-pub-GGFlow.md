@@ -1,6 +1,9 @@
 ---
 title:          "GGFlow: A Graph Flow Matching Method with Efficient Optimal Transport"
 date:           2025-08-07 00:01:00 +0800
+scholar_titles:
+  - "GGFlow: A Graph Flow Matching Method with Efficient Optimal Transport"
+  - "Improving Molecular Graph Generation with Flow Matching and Optimal Transport"
 selected:       true
 pub:            "AIDrugX Workshop, Neural Information Processing Systems (NeurIPS) 2024 <br>Transactions on Machine Learning Research (TMLR) "
 # pub_pre:        "Submitted to "

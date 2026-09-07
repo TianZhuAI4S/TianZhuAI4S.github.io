@@ -1,0 +1,16 @@
+{%- assign _cites = 0 -%}
+{%- assign _titles = item.scholar_titles -%}
+{%- if _titles -%}
+  {%- for t in _titles -%}
+    {%- assign _key = t | downcase -%}
+    {%- assign _c = site.data.scholar.by_title[_key] -%}
+    {%- if _c -%}{%- assign _cites = _cites | plus: _c -%}{%- endif -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign _key = item.title | downcase -%}
+  {%- assign _c = site.data.scholar.by_title[_key] -%}
+  {%- if _c -%}{%- assign _cites = _c -%}{%- endif -%}
+{%- endif -%}
+{%- if _cites > 0 -%}
+<span class="pub-cites" title="Google Scholar, updated {{ site.data.scholar.updated }}">{{ _cites }} citation{% if _cites != 1 %}s{% endif %}</span>
+{%- endif -%}

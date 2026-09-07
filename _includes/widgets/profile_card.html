@@ -93,6 +93,16 @@
                             <i class="fab fa-orcid"></i> ORCID
                         </a>
                         {% endif %}
+
+                        {% if site.data.scholar.citations %}
+                        <div class="scholar-stat-line">
+                            <span><b>{{ site.data.scholar.citations }}</b> citations</span>
+                            <span class="dot">&middot;</span>
+                            <span>h-index <b>{{ site.data.scholar.hindex }}</b></span>
+                            <span class="dot">&middot;</span>
+                            <span>via Google Scholar, updated {{ site.data.scholar.updated | date: "%b %-d, %Y" }}</span>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
