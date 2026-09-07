@@ -3,14 +3,12 @@
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-4">
                 <div class="mx-2 my-1">
-                    <h5 class="mb-3">Honors & Awards</h5>
-                    <ul class="list pl-3 mb-1">
+                    <h6 class="plain-list-title">Honors & Awards</h6>
+                    <ul class="plain-list">
                         {% for item in site.data.profile.awards %}
                         <li>
-                            <div class="d-flex">
-                                <div>{{ item.name }}</div>
-                                <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
-                            </div>
+                            <div>{{ item.name }}</div>
+                            <div class="plain-list-date">{{ item.date }}</div>
                         </li>
                         {% endfor %}
                     </ul>

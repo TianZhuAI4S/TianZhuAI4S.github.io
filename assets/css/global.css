@@ -76,3 +76,268 @@ div.lazy {
     color: var(--author-color) !important;
 }
 
+/* ==================================================================
+   Accent palette + type
+   ================================================================== */
+:root {
+    --accent: #5a8fc0;
+    --accent-ink: #2e5a85;
+    --accent-soft: #e3eef8;
+    --accent-soft-2: #c9dff0;
+    --muted: #93998f;
+}
+
+a {
+    color: var(--accent-ink);
+}
+a:hover {
+    color: var(--accent);
+}
+
+.font-serif {
+    font-family: "Source Serif 4", serif;
+}
+
+.text-profile-name {
+    font-family: "Source Serif 4", serif;
+    font-weight: 700;
+}
+
+.text-profile-position {
+    font-size: .74rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: var(--accent-ink);
+}
+
+.profile-portrait {
+    border: 3px solid var(--accent-soft-2) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 16px rgba(0,0,0,.10);
+}
+
+.profile-divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, var(--accent) 0, #e9ecef 140px);
+    margin: 1rem 0;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: .82rem;
+    font-weight: 700;
+    padding: 6px 12px;
+    margin: 0 6px 6px 0;
+    border-radius: 8px;
+    border: 1px solid #d7dbe0;
+    color: #495057;
+    white-space: nowrap;
+}
+.contact-btn:hover {
+    color: var(--accent-ink);
+    border-color: var(--accent);
+    text-decoration: none;
+}
+.contact-btn.contact-btn-primary {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+}
+
+/* ==================================================================
+   Timeline (education / experience)
+   ================================================================== */
+.timeline-title {
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+}
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    list-style: none;
+    margin: 0;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 4px;
+    bottom: 4px;
+    width: 2px;
+    background: #dee2e6;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+.timeline-logo {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.timeline-logo img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+.timeline-card {
+    border-left: 3px solid transparent;
+    padding-left: 10px;
+}
+.timeline-item.active .timeline-card {
+    border-left-color: var(--accent);
+}
+.timeline-name {
+    font-weight: 700;
+}
+.timeline-meta {
+    color: #6c757d;
+    font-size: .85rem;
+}
+.timeline-date {
+    color: var(--muted);
+    font-size: .78rem;
+    font-variant-numeric: tabular-nums;
+    margin-top: 1px;
+}
+
+/* ==================================================================
+   Plain list (honors & awards / academic service)
+   ================================================================== */
+.plain-list-title {
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 8px;
+    margin-bottom: 2px;
+}
+.plain-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.plain-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #eceae3;
+    font-size: .92rem;
+}
+.plain-list li:last-child {
+    border-bottom: none;
+}
+.plain-list-date {
+    color: var(--muted);
+    font-size: .8rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+/* ==================================================================
+   Publications
+   ================================================================== */
+.pub-cover-wrap {
+    position: relative;
+}
+.pub-cover-wrap img {
+    border-radius: 8px !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 6px 14px rgba(0,0,0,.10);
+}
+.pub-selected-tag {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background: var(--accent);
+    color: #f3faf8;
+    font-size: .56rem;
+    font-weight: 700;
+    letter-spacing: .03em;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.pub-venue {
+    display: inline-block;
+    font-size: .74rem;
+    font-weight: 700;
+    color: var(--accent-ink);
+    background: var(--accent-soft);
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+.abstract-links a {
+    font-weight: 700;
+    color: var(--accent-ink);
+    border-bottom: 1px solid var(--accent-soft-2);
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+/* ==================================================================
+   News timeline
+   ================================================================== */
+.news-timeline {
+    position: relative;
+    padding-left: 22px;
+    list-style: none;
+    margin: 0;
+}
+.news-timeline::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: #dee2e6;
+}
+.news-timeline li {
+    position: relative;
+    margin-bottom: 14px;
+}
+.news-timeline li:last-child {
+    margin-bottom: 0;
+}
+.news-timeline li::before {
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #dee2e6;
+}
+.news-timeline li.latest::before {
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.news-meta {
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+
