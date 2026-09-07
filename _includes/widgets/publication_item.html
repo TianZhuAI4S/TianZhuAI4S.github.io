@@ -14,7 +14,7 @@
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
             <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-1 small">{{item.pub_pre}}{% if item.pub %}<span class="pub-venue">{{ item.pub }}</span>{% endif %}{{item.pub_post}} {{ item.pub_date }} {{ item.pub_last }}</p>
+            <p class="mt-0 mb-1 small">{{item.pub_pre}}{% if item.pub %}{% assign pub_venues = item.pub | split: "<br>" %}{% for v in pub_venues %}<span class="pub-venue">{{ v | strip }}</span> {% endfor %}{% endif %}{{item.pub_post}} {{ item.pub_date }} {{ item.pub_last }}</p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
 
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
@@ -38,7 +38,7 @@
             <div>
                 <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-                <p class="mt-0 mb-1 small">{{item.pub_pre}}{% if item.pub %}<span class="pub-venue">{{ item.pub }}</span>{% endif %}{{item.pub_post}} {{ item.pub_date }} {{ item.pub_last }}</p>
+                <p class="mt-0 mb-1 small">{{item.pub_pre}}{% if item.pub %}{% assign pub_venues = item.pub | split: "<br>" %}{% for v in pub_venues %}<span class="pub-venue">{{ v | strip }}</span> {% endfor %}{% endif %}{{item.pub_post}} {{ item.pub_date }} {{ item.pub_last }}</p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">

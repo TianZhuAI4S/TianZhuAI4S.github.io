@@ -9,9 +9,11 @@
                     <ul class="timeline">
                         {% for item in site.data.profile.education %}
                         <li class="timeline-item{% if item.date contains "present" %} active{% endif %}">
-                            <div class="timeline-logo"><img src="{{ item.logo | relative_url }}" alt="{{ item.name }}"></div>
                             <div class="timeline-card">
-                                <div class="timeline-name">{{ item.name }}</div>
+                                <div class="timeline-heading">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}">
+                                    <div class="timeline-name">{{ item.name }}</div>
+                                </div>
                                 <div class="timeline-meta">{{ item.position }}</div>
                                 <div class="timeline-date">{{ item.date }}</div>
                             </div>
@@ -27,9 +29,11 @@
                     <ul class="timeline">
                         {% for item in site.data.profile.experience %}
                         <li class="timeline-item{% if item.date contains "present" %} active{% endif %}">
-                            <div class="timeline-logo"><img src="{{ item.logo | relative_url }}" alt="{{ item.name }}"></div>
                             <div class="timeline-card">
-                                <div class="timeline-name">{{ item.name }}</div>
+                                <div class="timeline-heading">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}">
+                                    <div class="timeline-name">{{ item.name }}</div>
+                                </div>
                                 <div class="timeline-meta">{{ item.position }}</div>
                                 <div class="timeline-date">{{ item.date }}</div>
                             </div>

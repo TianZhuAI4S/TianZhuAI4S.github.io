@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Tian Zhu"
 
 positions:
-- logo: /assets/images/badges/EPFL_logo.png  # Logo is optional
+- logo: /assets/images/badges/EPFL_logo.svg  # Logo is optional
   name: PhD Candidate
 # - name: Position 2 without logo
 
@@ -43,12 +43,12 @@ portrait_url: /assets/images/photos/TianZhu_2025_10.jpg
 
 education:
 - name: AITHYRA Research Institute for Biomedical Artificial Intelligence
-  logo: /assets/images/badges/AITHYRA_logo.png
+  logo: /assets/images/badges/AITHYRA_logo.svg
   position: >-
     Predoctoral Fellow
   date: Jun. 2026 - present
 - name: École Polytechnique Fédérale de Lausanne
-  logo: /assets/images/badges/EPFL_logo.png
+  logo: /assets/images/badges/EPFL_logo.svg
   position: >- 
     Laboratory of Protein Design and Immunoengineering <br>
     PhD Candidate
@@ -74,7 +74,7 @@ experience:
     Research Intern
   date: May. 2025 - Nov. 2025
 # - name: Ecole Polytechnique Fédérale de Lausanne
-#   logo: /assets/images/badges/EPFL_logo.png
+#   logo: /assets/images/badges/EPFL_logo.svg
 #   position: Research Intern
 #   date: Feb. 2025 - Aug. 2025
 # - name: Institute of Computing Technology

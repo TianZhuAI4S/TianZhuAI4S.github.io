@@ -161,16 +161,16 @@ a:hover {
 }
 .timeline {
     position: relative;
-    padding-left: 40px;
+    padding-left: 22px;
     list-style: none;
     margin: 0;
 }
 .timeline::before {
     content: "";
     position: absolute;
-    left: 15px;
-    top: 4px;
-    bottom: 4px;
+    left: 5px;
+    top: 6px;
+    bottom: 6px;
     width: 2px;
     background: #dee2e6;
 }
@@ -181,21 +181,32 @@ a:hover {
 .timeline-item:last-child {
     margin-bottom: 0;
 }
-.timeline-logo {
+.timeline-item::before {
+    content: "";
     position: absolute;
-    left: -40px;
-    top: 0;
-    width: 32px;
-    height: 32px;
+    left: -22px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #dee2e6;
+}
+.timeline-item.active::before {
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.timeline-heading {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #fff;
+    gap: 8px;
+    margin-bottom: 2px;
 }
-.timeline-logo img {
-    width: 28px;
-    height: 28px;
+.timeline-heading img {
+    height: 22px;
+    width: auto;
+    max-width: 84px;
     object-fit: contain;
+    flex: none;
 }
 .timeline-card {
     border-left: 3px solid transparent;
@@ -284,6 +295,7 @@ a:hover {
     background: var(--accent-soft);
     border-radius: 5px;
     padding: 2px 8px;
+    margin: 0 4px 4px 0;
 }
 .abstract-links a {
     font-weight: 700;
