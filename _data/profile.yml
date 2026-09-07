@@ -42,17 +42,17 @@ portrait_url: /assets/images/photos/TianZhu_2025_10.jpg
 #   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
+- name: École Polytechnique Fédérale de Lausanne
+  logo: /assets/images/badges/EPFL_logo.svg
+  position: >-
+    Laboratory of Protein Design and Immunoengineering <br>
+    PhD Candidate
+  date: Sep. 2025 - present
 - name: AITHYRA Research Institute for Biomedical Artificial Intelligence
   logo: /assets/images/badges/AITHYRA_logo.svg
   position: >-
     Predoctoral Fellow
   date: Jun. 2026 - present
-- name: École Polytechnique Fédérale de Lausanne
-  logo: /assets/images/badges/EPFL_logo.svg
-  position: >- 
-    Laboratory of Protein Design and Immunoengineering <br>
-    PhD Candidate
-  date: Sep. 2025 - present
 - name: Chinese Academy of Sciences
   logo: /assets/images/badges/UCAS_logo.png
   position: >- 

@@ -1,7 +1,7 @@
 ---
 title:          "Accurate structure prediction of immune proteins using parameter-efficient transfer learning"
 date:           2024-11-15 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "BioRxiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
