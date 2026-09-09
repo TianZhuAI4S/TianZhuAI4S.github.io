@@ -8,18 +8,37 @@ Jekyll to render. Run on a schedule by .github/workflows/update-scholar.yml.
 
 Exits non-zero (without touching the data file) if the fetch fails, so a
 transient Scholar block or scraper breakage never wipes out good data.
+
+Google Scholar blocks requests from most cloud/datacenter IPs — including
+GitHub Actions runners — so a proxy is required for this to work in CI. If
+the SCRAPERAPI_KEY environment variable is set, requests are routed through
+ScraperAPI (https://www.scraperapi.com/, free tier is plenty for one run a
+day). Without it, scholarly talks to Google Scholar directly, which is fine
+for a local run from a residential IP but will typically fail in CI.
 """
 import datetime
+import os
 import re
 import sys
 from pathlib import Path
 
 import yaml
-from scholarly import scholarly
+from scholarly import ProxyGenerator, scholarly
 
 ROOT = Path(__file__).resolve().parent.parent
 PROFILE_PATH = ROOT / "_data" / "profile.yml"
 OUTPUT_PATH = ROOT / "_data" / "scholar.yml"
+
+
+def configure_proxy() -> None:
+    api_key = os.environ.get("SCRAPERAPI_KEY")
+    if not api_key:
+        print("No SCRAPERAPI_KEY set; talking to Google Scholar directly.", file=sys.stderr)
+        return
+    pg = ProxyGenerator()
+    if not pg.ScraperAPI(api_key):
+        raise SystemExit("Failed to set up the ScraperAPI proxy (check SCRAPERAPI_KEY).")
+    scholarly.use_proxy(pg, secondary_proxy_generator=pg)
 
 
 def load_gscholar_id() -> str:
@@ -53,6 +72,7 @@ def fetch_author_data(author_id: str) -> dict:
 
 
 def main() -> int:
+    configure_proxy()
     author_id = load_gscholar_id()
     try:
         data = fetch_author_data(author_id)
