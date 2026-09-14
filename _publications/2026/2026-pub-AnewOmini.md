@@ -42,5 +42,5 @@ authors:
   - Jianzhu Ma
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.03.12.711044v1
-  # code: https://github.com/Xiaoyang878/GGFlow
+  code: https://github.com/bytedance/AnewOmni
 ---
